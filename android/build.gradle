@@ -46,8 +46,8 @@ android {
 
 
 dependencies {
-//    implementation fileTree(dir: 'libs', include: ['*.aar'])
-//    api(name: 'libs/deepar', ext: 'aar')
+    implementation fileTree(dir: 'libs', include: ['*.aar'])
+    api(name: 'libs/deepar', ext: 'aar')
     compile(name:'deepar', ext:'aar')
     implementation files('libs/deepar.aar')
     implementation 'com.karumi:dexter:6.2.1'
